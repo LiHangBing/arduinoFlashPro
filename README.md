@@ -4,13 +4,17 @@
 
 这是一个非常简单的小工具，将其烧录到简易的Arduino设备中，连接USB转串口，借助上位机即可实现USB/串口转SPI
 
-
-
 # Tools on PC
 
 here is a simple QT project to communicate.
 
 [LiHangBing/QtFlashProgrammer: A simple tool to program or burn flash like W25QXX or 24CXX (github.com)](https://github.com/LiHangBing/QtFlashProgrammer)
+
+
+
+# 待完成
+
+添加IIC接口支持
 
 
 
