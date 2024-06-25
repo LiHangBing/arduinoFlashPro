@@ -14,7 +14,7 @@ here is a simple QT project to communicate.
 
 # 待完成
 
-添加IIC接口支持
+添加IIC接口支持(✔）
 
 
 
