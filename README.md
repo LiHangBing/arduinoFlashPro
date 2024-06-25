@@ -1,6 +1,7 @@
 # arduinoFlashPro
 
  program or burn flash like w25qxx by arduino with serial connection.
+ 
  read or write eeprom like at24c02 by arduino with serial connection.
 
 这是一个非常简单的小工具，将其烧录到简易的Arduino设备中，连接USB转串口，借助上位机即可实现USB/串口转SPI/I2C
