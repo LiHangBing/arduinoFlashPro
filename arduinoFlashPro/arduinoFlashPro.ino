@@ -1,5 +1,6 @@
 /*
 	该程序基于简易的arduino硬件，主要目的是烧录SPI Flash，如W25QXX等，主要原理是实现了UART转SPI的功能，需配合上位机使用。
+    也可烧录eepron，如24cxx
     Copyright (C) 2023  LiHangBing
 
     This program is free software: you can redistribute it and/or modify
@@ -23,7 +24,7 @@
 #include <arduino.h>
 #include "commands.h"
 
-#define UART_SPEED 1000000
+#define UART_SPEED 9600
 /*
 波特率配置源码：
 uint16_t baud_setting = (F_CPU / 4 / baud - 1) / 2;   //此处实际+0.5做近似处理，没有错误
