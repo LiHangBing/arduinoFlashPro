@@ -23,6 +23,7 @@
 #include "commands.h"
 #include "spi_cmd.h"
 #include "i2c_cmd.h"
+#include "gpio_cmd.h"
 #include "defines.h"
 
 byte buff[buffSize];
@@ -75,6 +76,20 @@ void ParseCommand(char cmd) {
       break;
     case FUNC_I2C_TST:
       i2c_cmd_tst();
+      break;
+
+    //GPIO
+    case FUNC_GPIO_INIT:
+      gpio_init();
+      break;
+    case FUNC_GPIO_DEINIT:
+      gpio_deinit();
+      break;
+    case FUNC_GPIO_READ:
+      gpio_read();
+      break;
+    case FUNC_GPIO_WRITE:
+      gpio_write();
       break;
 
     default:

@@ -20,6 +20,14 @@
 #define FUNC_I2C_STOP      25
 #define FUNC_I2C_TST       28
 
+
+//上位机传送的GPIO码（支持8路GPIO）
+#define FUNC_GPIO_INIT    30
+#define FUNC_GPIO_DEINIT  31
+#define FUNC_GPIO_READ    32
+#define FUNC_GPIO_WRITE   33
+
+
 #define ERROR_OPERAT 97
 #define ERROR_TIMOUT 98
 #define ERROR_RECV 99

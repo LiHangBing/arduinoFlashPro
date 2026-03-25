@@ -32,7 +32,7 @@ void i2c_cmd_init() {
   long i2c_speed;
   byte bytesread;
 
-  bytesread = Serial.readBytes(buff, 1);      //从串口读取1字节，指示SPI时钟速度
+  bytesread = Serial.readBytes(buff, 1);      //从串口读取1字节，指示I2C时钟速度
   if (bytesread == 0) {
     Serial.write(ERROR_TIMOUT); //超时
     Serial.flush();
